@@ -69,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				8A631A3F2C35F5BC001BAA4F /* App */,
+				8A631A3E2C35F59C001BAA4F /* Storyboards */,
+				8A631A2B2C35F328001BAA4F /* ViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -101,10 +103,8 @@
 		8A631A3F2C35F5BC001BAA4F /* App */ = {
 			isa = PBXGroup;
 			children = (
-				8A631A3E2C35F59C001BAA4F /* Storyboards */,
 				8A631A272C35F328001BAA4F /* AppDelegate.swift */,
 				8A631A292C35F328001BAA4F /* SceneDelegate.swift */,
-				8A631A2B2C35F328001BAA4F /* ViewController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -361,9 +361,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "BY.HW11-IOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -387,9 +390,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "BY.HW11-IOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
