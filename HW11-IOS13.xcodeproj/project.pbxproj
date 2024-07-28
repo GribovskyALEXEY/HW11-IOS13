@@ -68,8 +68,8 @@
 		8A631A3B2C35F55B001BAA4F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8A631A3F2C35F5BC001BAA4F /* App */,
 				8A631A3E2C35F59C001BAA4F /* Storyboards */,
+				8A631A3F2C35F5BC001BAA4F /* App */,
 				8A631A2B2C35F328001BAA4F /* ViewController.swift */,
 			);
 			path = Sources;
